@@ -1,4 +1,4 @@
-# eos_workflow
+# eos-workflow
 A workflow for eos calculations
 
 ## installation
