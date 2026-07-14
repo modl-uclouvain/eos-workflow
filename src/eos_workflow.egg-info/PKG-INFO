@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: eos_workflow
+Version: 0.2.0
+Summary: A workflow of EOS calculations
+Author-email: Weiguo Jing <jingslaw163@gmail.com>
+Maintainer-email: Weiguo Jing <jingslaw163@gmail.com>
+License: MIT license
+Project-URL: bugs, https://github.com/jingslaw/eos_workflow/issues
+Project-URL: changelog, https://github.com/jingslaw/eos_workflow/blob/master/changelog.md
+Project-URL: homepage, https://github.com/jingslaw/eos_workflow
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: typer
+Requires-Dist: abipy @ git+https://github.com/abinit/abipy.git@develop
+Requires-Dist: atomate2
+Requires-Dist: ase
+Requires-Dist: jedi==0.18.2
+Requires-Dist: jobflow-remote
+Provides-Extra: dev
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Dynamic: license-file
+
+============
+eos_workflow
+============
+
+
+.. image:: https://img.shields.io/pypi/v/eos_workflow.svg
+        :target: https://pypi.python.org/pypi/eos_workflow
+
+.. image:: https://img.shields.io/travis/jingslaw/eos_workflow.svg
+        :target: https://travis-ci.com/jingslaw/eos_workflow
+
+.. image:: https://readthedocs.org/projects/eos-workflow/badge/?version=latest
+        :target: https://eos-workflow.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+A workflow of EOS calculations
+
+
+* Free software: MIT license
+* Documentation: https://eos-workflow.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage

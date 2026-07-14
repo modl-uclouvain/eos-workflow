@@ -1,0 +1,69 @@
+# atsym z nc nv iexc psfile
+N 7 1 2 4 both
+# n l f
+1 0 2.0
+2 0 2.0
+2 1 3.0
+# lmax
+1
+# l rc ep ncon nbas qcut
+0 1.2 0.0 4 9 8.50
+1 1.35 0.0 4 9 8.99
+# lloc lpopt rc5 dvloc0
+4 5 1.2 0.0
+# l nproj debl
+0 2 0.69
+1 2 0.28
+# icmod fcfact
+3 4 1.5
+# epsh1 epsh2 depsh
+-12.0 12.0 0.02
+# rlmax drl
+6.0 0.01
+# TEST CONFIGURATIONS
+# ncnf
+    4
+# nvcnf
+#   n    l    f
+#    2
+#    2    0    2.00
+#    2    1    2.50
+#
+#   n    l    f
+#    2
+#    2    0    2.00
+#    2    1    2.00
+#
+#   n    l    f
+#    2
+#    2    0    1.50
+#    2    1    3.00
+#
+#   n    l    f
+#    2
+#    2    0    1.00
+#    2    1    3.00
+#
+#   n    l    f
+    2
+    2    0    1.50
+    2    1    3.50
+#
+#   n    l    f
+    2
+    2    0    1.00
+    2    1    4.00
+#
+#   n    l    f
+    3
+    2    0    2.00
+    2    1    2.50
+    3    2    0.50
+#
+#   n    l    f
+    3
+    2    0    2.00
+    2    1    2.50
+    3    0    0.50
+#
+
