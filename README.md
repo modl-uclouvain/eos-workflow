@@ -4,7 +4,7 @@ A workflow for eos calculations
 ## installation
 #### clone the code
 ```
-git clone https://github.com/jingslaw/eos_workflow.git
+git clone https://github.com/modl-uclouvain/eos-workflow.git
 ```
 #### create a conda env *jobflow*
 ```
